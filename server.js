@@ -51,6 +51,6 @@ app.delete("/students/:id", async (req, res) => {
 });
 
 
-app.listen(8002, () => {
-    console.log("Server running on port 8002");
+app.listen(7000, () => {
+    console.log("Server running on port 7000");
 });
